@@ -57,7 +57,7 @@ public class Controlador {
 			cmdPid = "TASKKILL /PID";
 			cmdNome = "TASKKILL /IM";
 		}else {
-			cmdPid = "kill -9";
+			cmdPid = "kill";
 			cmdNome = "killall";
 		}
 		
