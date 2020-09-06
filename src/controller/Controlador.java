@@ -57,8 +57,8 @@ public class Controlador {
 			cmdPid = "TASKKILL /PID";
 			cmdNome = "TASKKILL /IM";
 		}else {
-			cmdPid = "kill";
-			cmdNome = "kill";
+			cmdPid = "kill -9";
+			cmdNome = "killall";
 		}
 		
 		String processo = JOptionPane.showInputDialog("Digite o P id do processo que deseja encerrar, ou o nome do processo");
